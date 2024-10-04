@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy; /* Fonte Roboto para o corpo */
+    background-color: #6495ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.promo-container {
+    background-color: MidnightBlue;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana; /* Fonte Roboto para o título */
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #FFFFFF;  
+}
+
+.product-image {
+    width: 350px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.price {
+    font-family: Verdana;  /* Usando a fonte "fantasy" apenas para o preço */
+    font-size: 32px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #6495ED;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+
+/* CSS para o formulário de login */
+/* CSS para o formulário de login */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6495ED; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da tela */
+    margin: 0;
+}
+
+.login-container {
+    background-color: MidnightBlue; /* Fundo cinza escuro para o contêiner */
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px; /* Largura do formulário ajustada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar o contêiner */
+    position: relative; /* Posicionamento relativo para o posicionamento da nuvem */
+}
+
+.login-container h2 {
+    color: white; /* Cor vermelha para o título */
+    margin-bottom: 20px;
+    font-size: 18px; /* Tamanho da fonte do título reduzido */
+}
+
+.login-container label {
+    display: block;
+    margin: 5px 0;
+    color: #fff; /* Texto branco para os rótulos */
+    font-weight: bold; /* Fonte em negrito para os rótulos */
+    font-size: 12px; /* Tamanho da fonte reduzido */
+}
+
+.login-container .form-row {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha para campos menores */
+    margin-bottom: 15px;
+}
+
+.login-container .form-row div {
+    width: 48%; /* Largura dos campos ajustada para duas colunas */
+    margin-right: 2%;
+}
+
+.login-container .form-row div:last-child {
+    margin-right: 0; /* Remove a margem direita do último elemento */
+}
+
+.login-container input,
+.login-container select {
+    width: 100%; /* Largura completa dos campos */
+    padding: 8px;
+    border: 1px solid #555; /* Borda cinza escura */
+    border-radius: 4px;
+    background-color: #fff; /* Fundo branco para as caixas de texto */
+    color: #000; /* Texto das entradas em preto */
+    font-size: 12px; /* Tamanho da fonte reduzido */
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6495ED; /* Fundo vermelho para o botão */
+    color: #fff; /* Texto branco para o botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Tamanho da fonte do botão reduzido */
+}
+
+.login-container button:hover {
+    background-color: #6495ED; /* Fundo vermelho escuro no hover */
+}
+
+#feedbackMessage {
+    position: absolute;
+    top: -120px; /* Ajusta a posição mais acima do formulário */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black; /* Fundo branco muito claro */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 8px 12px; /* Espaçamento interno reduzido */
+    width: 90%; /* Largura ajustada */
+    max-width: 350px; /* Largura máxima */
+    text-align: center; /* Alinhamento do texto no centro */
+    color: white; /* Texto escuro para melhor contraste */
+    font-size: 12px; /* Tamanho da fonte da mensagem reduzido */
+    display: none; /* Inicialmente escondido */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6495ED; /* Fundo azul claro */
+    color: #fff; /* Texto branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da tela */
+    margin: 0;
+}
+
+.login-container {
+    background-color: MidnightBlue; /* Fundo azul escuro para o contêiner */
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px; /* Largura do formulário ajustada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar o contêiner */
+}
+
+.login-container h2 {
+    color: white; /* Cor branca para o título */
+    margin-bottom: 20px;
+    font-size: 18px; /* Tamanho da fonte do título */
+}
+
+.login-container label {
+    display: block;
+    margin: 5px 0;
+    color: #fff; /* Texto branco para os rótulos */
+    font-weight: bold; /* Fonte em negrito para os rótulos */
+    font-size: 12px; /* Tamanho da fonte reduzido */
+}
+
+.login-container input {
+    width: 100%; /* Largura completa dos campos */
+    padding: 8px;
+    border: 1px solid #555; /* Borda cinza escura */
+    border-radius: 4px;
+    background-color: #fff; /* Fundo branco para as caixas de texto */
+    color: #000; /* Texto das entradas em preto */
+    font-size: 12px; /* Tamanho da fonte reduzido */
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6495ED; /* Fundo azul para o botão */
+    color: #fff; /* Texto branco para o botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Tamanho da fonte do botão */
+}
+
+.login-container button:hover {
+    background-color: #0056b3; /* Fundo azul escuro no hover */
+}
+
+ /*aviso*/
+ 
